@@ -3,6 +3,7 @@ import { useAppContext } from '@/context/AppContext';
 import { useClerk, UserButton } from '@clerk/nextjs';
 import Image from 'next/image'
 import React from 'react'
+import ChatLabel from './ChatLabel';
 
 const Sidebar = ({ expand, setExpand }) => {
   const { openSignIn } = useClerk();
@@ -81,6 +82,7 @@ const Sidebar = ({ expand, setExpand }) => {
         >
           <p className="my-1">Recents</p>
           {/* chatLabel */}
+          <ChatLabel />
         </div>
       </div>
 
