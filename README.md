@@ -34,3 +34,14 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+
+### packages used in backend
+- `mongoose` - to connect with MongoDB database, 
+- `openai` - using this we can make this API call and get the response from AI,
+- `svix` - using this we will manage the clerk web hooks and store the user data into the database 
+
+### packages used in frontend
+- `prismjs` - we will this package to highlight the syntax
+- `react-hot-toast` - using this we can display the toast notifications 
+- `react-markdown` - using this we can structure the response that we will get from the AI.
